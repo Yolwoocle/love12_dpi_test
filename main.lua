@@ -7,7 +7,7 @@ function love.load()
 	image = love.graphics.newImage("bands.png")
 	canvas = love.graphics.newCanvas(480, 270, {dpiscale = 1})
 
-	love.window.setMode(480*3, 270*3, {
+	love.window.setMode(1440*1.5, 889*1.5, {
 		resizable = true,
 	})
 end

@@ -6,4 +6,5 @@ function love.conf(t)
     -- t.graphics.excluderenderers = {"vulkan"}
     
     t.usedpiscale = false
+    t.highdpi = true
 end
